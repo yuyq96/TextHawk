@@ -1,5 +1,7 @@
 # TextHawk: Exploring Efficient Fine-Grained Perception of Multimodal Large Language Models
 
+![examples](figures/examples.png)
+
 ## Introduction
 
 *TextHawk* is a Multimodal Large Language Model (MLLM) specifically designed for document-oriented tasks, while preserving the general capabilities. It is aimed to explore efficient fine-grained perception by designing four dedicated components:
