@@ -18,8 +18,11 @@ We create a new instruction-tuning dataset *DocGemini* for document-oriented tas
 - A brief summary of the document topics.
 - Short QA pairs, up to 10.
 - Insights behind each answer.
+- [Optional] An imaginary conversations between two researchers.
 
 DocGemini consists of 30K images and 195K QA pairs with insights.
+
+> Note: The generated dataset is undergoing legal assessment. Alternatively, you can produce data on your own using the [scripts](DocGemini/generate.py) we provide.
 
 ## Benchmarks
 
