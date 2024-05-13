@@ -22,7 +22,13 @@ We create a new instruction-tuning dataset *DocGemini* for document-oriented tas
 
 DocGemini consists of 30K images and 195K QA pairs with insights.
 
-> Note: The generated dataset is undergoing legal assessment. Alternatively, you can produce data on your own using the [scripts](DocGemini/generate.py) we provide.
+| Dataset | QA | Conversation |
+| :-: | :-: | :-: |
+| DocVQA | [link](DocGemini/docvqa.jsonl) | [link](DocGemini/docvqa_conv.jsonl) |
+| ChartQA | [link](DocGemini/chartqa.jsonl) | [link](DocGemini/chartqa_conv.jsonl) |
+| InfoVQA | [link](DocGemini/infovqa.jsonl) | [link](DocGemini/infovqa_conv.jsonl) |
+
+> Note: Alternatively, you can produce data on your own using the [scripts](DocGemini/generate.py) we provide.
 
 ## Benchmarks
 
