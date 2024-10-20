@@ -1,15 +1,27 @@
-# TextHawk: Exploring Efficient Fine-Grained Perception of Multimodal Large Language Models
+# TextHawk
 
-![examples](figures/examples.png)
+[TextHawk2: A Large Vision-Language Model Excels in Bilingual OCR and Grounding with 16x Fewer Tokens]()
+
+[TextHawk: Efficient Fine-Grained Perception of Multimodal Large Language Models]()
 
 ## Introduction
 
-*TextHawk* is a Multimodal Large Language Model (MLLM) specifically designed for document-oriented tasks, while preserving the general capabilities. It is aimed to explore efficient fine-grained perception by designing four dedicated components:
+The **TextHawk** series represents a cutting-edge family of Large Vision-Language Models (LVLMs) designed for highly efficient fine-grained perception. Notably, TextHawk sets a milestone as the first LVLM to achieve a **16x** token compression ratio. This is made possible through the integration of four key components:
 
-- ReSampling and ReArrangement (ReSA)
-- Scalable Positional Embeddings (SPEs)
-- Query Proposal Network (QPN)
-- Multi-Level Cross-Attention (MLCA)
+- **Scalable Positional Embeddings (SPEs)**
+- **Query Proposal Network (QPN)**
+- **ReSampling and ReArrangement (ReSA)**
+- **Multi-Level Cross-Attention (MLCA)**
+
+![architecture](figures/architecture.png)
+
+Building on the same architecture, **TextHawk2** enhances performance by leveraging greater data diversity and reinforcing the visual encoder. This iteration achieves state-of-the-art results across multiple benchmarks, excelling in tasks related to general multimodal understanding, Optical Character Recognition (OCR), and visual grounding. For instance, TextHawk2 delivers impressive metrics such as 78.4% accuracy on OCRBench, 81.4% accuracy on ChartQA, 89.6% ANLS on DocVQA, and 88.1% accuracy@0.5 on RefCOCOg-test.
+
+![compression](figures/compress.png)
+
+TextHawk series can compress multiple times more words displayed on a small image, where each character measures under 8 pixels, into a few tokens, allowing for accurate recovery. It’s reminiscent of the futuristic gadgets in *Doraemon* anime.
+
+![examples](figures/examples.png)
 
 ## DocGemini
 
@@ -32,6 +44,15 @@ DocGemini consists of 30K images and 195K QA pairs with insights.
 
 ## Benchmarks
 
+![ocr](figures/ocr.png)
+
+![grounding](figures/grounding.png)
+
+![proprietary](figures/proprietary.png)
+
+<details>
+<summary>TextHawk</summary>
+
 | Model | ViT<br>(Params.) | MME<br>perception | MMB<br>dev | SEED<br>image | GQA | DocVQA | ChartQA | InfoVQA | TabFact | WTQ | RefCOCO<br>val | RefCOCO<br>test-A | RefCOCO<br>test-B |
 | :- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 $\text{Donut}$ | $\text{Swin-B}$<br>(0.1B) | - | - | - | - | 67.5 | 41.8 | 11.6 | 54.6 | 18.8 | - | - | -
@@ -47,3 +68,10 @@ $\textbf{TextHawk}^*$ | $\text{SigLIP-SO}$<br>(0.4B) | <ins>1520.9</ins> | 73.0 
 $\textbf{TextHawk}$ | $\text{SigLIP-SO}$<br>(0.4B) | 1500.0 | <ins>74.6</ins> | **69.2** | <ins>64.6</ins> | **76.4** | <ins>66.6</ins> | **50.6** | **71.1** | **34.7** | 87.2 | 90.8 | 82.5
 
 > Note: $\textbf{TextHawk}^*$ is fine-tuned without the DocGemini.
+</details>
+
+## Qualitative Results
+
+![markdown](figures/markdown.jpg)
+
+![reg](figures/reg.png)
