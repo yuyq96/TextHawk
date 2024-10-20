@@ -1,8 +1,14 @@
-# TextHawk
+# TextHawk: 🥇 LVLM with 16x Compression Ratio
 
-[TextHawk2: A Large Vision-Language Model Excels in Bilingual OCR and Grounding with 16x Fewer Tokens]()
+### Base Models
 
-[TextHawk: Efficient Fine-Grained Perception of Multimodal Large Language Models]()
+[TextHawk2: A Large Vision-Language Model Excels in Bilingual OCR and Grounding with 16x Fewer Tokens](https://arxiv.org/abs/2410.05261)
+
+[TextHawk: Efficient Fine-Grained Perception of Multimodal Large Language Models](https://arxiv.org/abs/2404.09204)
+
+### GUI Agents
+
+[UI-Hawk: Unleashing the Screen Stream Understanding for GUI Agents](https://www.preprints.org/manuscript/202408.2137/v1)
 
 ## Introduction
 
