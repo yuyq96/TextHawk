@@ -2,7 +2,7 @@
 
 <a href="https://arxiv.org/abs/2410.05261" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/TextHawk2-arXiv/2410.05261-red?logo=arxiv"/></a>
 <a href="https://arxiv.org/abs/2404.09204" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/TextHawk-arXiv/2404.09204-red?logo=arxiv"/></a>
-<a href="https://zhuanlan.zhihu.com/p/939288220" target="_blank"><img alt="ZhiHu" src="https://img.shields.io/badge/TextHawk2-ZhiHu-1E90FF?logo=zhihu&logoColor=02B5FD"/>
+<a href="https://zhuanlan.zhihu.com/p/939288220/preview?comment=0&catalog=0" target="_blank"><img alt="ZhiHu" src="https://img.shields.io/badge/TextHawk2-ZhiHu-1E90FF?logo=zhihu&logoColor=02B5FD"/>
 
 ### Base Models
 
