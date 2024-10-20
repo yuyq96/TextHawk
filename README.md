@@ -88,26 +88,30 @@ $\textbf{TextHawk}$ | $\text{SigLIP-SO}$<br>(0.4B) | 1500.0 | <ins>74.6</ins> | 
 
 ```
 @article{yu24texthawk2,
-  author       = {Ya{-}Qi Yu and
-                  Minghui Liao and
-                  Jiwen Zhang and
-                  Jihao Wu},
+  author       = {Ya{-}Qi Yu and Minghui Liao and Jiwen Zhang and Jihao Wu},
   title        = {TextHawk2: A Large Vision-Language Model Excels in Bilingual OCR and Grounding with 16x Fewer Tokens},
   journal      = {CoRR},
   volume       = {abs/2410.05261},
   year         = {2024}
 }
+```
 
+```
 @article{yu24texthawk,
-  author       = {Ya{-}Qi Yu and
-                  Minghui Liao and
-                  Jihao Wu and
-                  Yongxin Liao and
-                  Xiaoyu Zheng and
-                  Wei Zeng},
+  author       = {Ya{-}Qi Yu and Minghui Liao and Jihao Wu and Yongxin Liao and Xiaoyu Zheng and Wei Zeng},
   title        = {TextHawk: Exploring Efficient Fine-Grained Perception of Multimodal Large Language Models},
   journal      = {CoRR},
   volume       = {abs/2404.09204},
+  year         = {2024}
+}
+```
+
+```
+@article{zhang24uihawk,
+  title        = {{UI-Hawk}: Unleashing the Screen Stream Understanding for GUI Agents},
+  author       = {Jiwen Zhang and Yaqi Yu and Minghui Liao and Wentao Li and Jihao Wu and Zhongyu Wei},
+  journal      = {Preprints},
+  volume       = {manuscript/202408.2137},
   year         = {2024}
 }
 ```
