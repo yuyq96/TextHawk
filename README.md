@@ -15,7 +15,9 @@ The **TextHawk** series represents a cutting-edge family of Large Vision-Languag
 
 ![architecture](figures/architecture.png)
 
-Building on the same architecture, **TextHawk2** enhances performance by leveraging greater data diversity and reinforcing the visual encoder. This iteration achieves state-of-the-art results across multiple benchmarks, excelling in tasks related to general multimodal understanding, Optical Character Recognition (OCR), and visual grounding. For instance, TextHawk2 delivers impressive metrics such as 78.4% accuracy on OCRBench, 81.4% accuracy on ChartQA, 89.6% ANLS on DocVQA, and 88.1% accuracy@0.5 on RefCOCOg-test.
+Building on the same architecture, **TextHawk2** enhances performance by leveraging greater data diversity and reinforcing the visual encoder. This iteration achieves state-of-the-art results across multiple benchmarks, excelling in tasks related to general multimodal understanding, Optical Character Recognition (OCR), and visual grounding.
+
+For instance, TextHawk2 delivers impressive metrics such as 78.4% accuracy on OCRBench, 81.4% accuracy on ChartQA, 89.6% ANLS on DocVQA, and 88.1% accuracy@0.5 on RefCOCOg-test.
 
 ![compression](figures/compress.png)
 
@@ -70,8 +72,36 @@ $\textbf{TextHawk}$ | $\text{SigLIP-SO}$<br>(0.4B) | 1500.0 | <ins>74.6</ins> | 
 > Note: $\textbf{TextHawk}^*$ is fine-tuned without the DocGemini.
 </details>
 
-## Qualitative Results
+## Visualization
 
 ![markdown](figures/markdown.jpg)
 
 ![reg](figures/reg.png)
+
+## BibTex
+
+```
+@article{yu24texthawk2,
+  author       = {Ya{-}Qi Yu and
+                  Minghui Liao and
+                  Jiwen Zhang and
+                  Jihao Wu},
+  title        = {TextHawk2: A Large Vision-Language Model Excels in Bilingual OCR and Grounding with 16x Fewer Tokens},
+  journal      = {CoRR},
+  volume       = {abs/2410.05261},
+  year         = {2024}
+}
+
+@article{yu24texthawk,
+  author       = {Ya{-}Qi Yu and
+                  Minghui Liao and
+                  Jihao Wu and
+                  Yongxin Liao and
+                  Xiaoyu Zheng and
+                  Wei Zeng},
+  title        = {TextHawk: Exploring Efficient Fine-Grained Perception of Multimodal Large Language Models},
+  journal      = {CoRR},
+  volume       = {abs/2404.09204},
+  year         = {2024}
+}
+```
